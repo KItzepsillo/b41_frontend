@@ -2,9 +2,9 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       Hola
-    </div>
+    </React.Fragment>
   );
 }
 
