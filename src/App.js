@@ -1,9 +1,12 @@
 import React from 'react';
+import Navigation from './components/Navigation'
 
 function App() {
   return (
     <React.Fragment>
-      Hola
+      <Navigation/>
+      <h1>Hola</h1> 
+      
     </React.Fragment>
   );
 }
