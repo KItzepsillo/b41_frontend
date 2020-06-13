@@ -1,11 +1,13 @@
 import React from 'react';
-import './App.css';
+import Navigation from './components/Navigation'
 
 function App() {
   return (
-    <div className="App">
-      Hola
-    </div>
+    <React.Fragment>
+      <Navigation/>
+      <h1>Hola</h1> 
+      
+    </React.Fragment>
   );
 }
 
